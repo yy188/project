@@ -1,0 +1,246 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color:#333;
+	font-family: "微软雅黑";
+}
+p,h1,h2,h3,h4,h5,h6,figure,figcaption,header,footer,ul,li{
+margin: 0;
+padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.services,.team{
+	width:100%;
+	padding: 60px 0;
+}
+
+.heading{
+	text-align: center;
+}
+.heading h1{
+	font-size: 40px;
+	color:#333333;
+	font-weight: 300;
+}
+.heading h2{
+	font-size: 24px;
+	font-size: #666;
+	font-weight: 300;
+}
+#header{
+	position: fixed;
+	width: 100%;
+	color:white;
+	background-color: #202f38;
+	top:0;
+	z-index: 9999;
+}
+#header .navbar{
+min-height:50px;
+line-height: 50px;
+}
+#header .navbar .logo{
+	font-size: 20px;
+	float: left;
+}
+#header .navbar ul{
+	float: left;
+	list-style: none;
+	margin-left: 40px;
+}
+#header .navbar li{
+	float: left;
+ 
+}
+#header .navbar li a{
+	color:white;
+	display: block;
+  padding: 0 20px;
+}
+#header .navbar li a.active,#header .navbar li a:hover{
+	background-color: #19232a;
+}
+#home{
+	margin: 50px 0;
+}
+#home .jumbotron{
+	box-sizing: border-box;
+	background-color: #293d48;
+	width:100%;
+	min-width: 1349px;
+	text-align: center;
+	padding-top: 90px;
+	position: relative;
+}
+
+#home .jumbotron h1{
+	color: white;
+	font-size: 42px;
+	font-weight: 300;
+	line-height: 1.5em;
+	padding-bottom: 30px;
+}
+#home .ourservices figure{
+	width:360px;
+	height: 260px;
+	text-align: center;
+	font-size: 12px;
+	margin: 40px 0px 0px 0px;
+	float:left;
+}
+#home .ourservices .app{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#home .ourservices h3{
+	padding: 8px 0;
+	font-size: 24px;
+	font-weight: 300;
+}
+#home .ourservices p{
+	color:#666666;
+	line-height: 2;
+	font-size: 12px;
+}
+.clearfix:after{
+    content:'.';
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+
+#home .team{
+	background-color: #f6f6f6;
+}
+#home .team figure{
+	height: 180px;
+	padding:6px;
+	box-shadow: 4px 4px #DDDDDD;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+}
+#home .team figure h3{
+	font-weight: normal;
+font-size: 20px;
+color:#333333;
+padding:16px;
+}
+/*#team .team figure:first-child{{
+	margin-top: 40px;
+}*/
+#home .team .firstchild{
+	margin-top: 40px;
+}
+#home .team img{
+	display: block;
+	float: left;
+
+}
+#home .team figure figcaption{
+	display: block;
+	width:75%;
+	float:right;
+}
+#home .team figure figcaption p{
+	font-size: 14px;
+	color:#666666;
+	display: block;
+	padding: 0 16px;
+}
+#home .projects {
+	margin:60px 0 0 0;
+}
+#home .projects figure{
+	float:left;
+	margin-top: 40px;
+	margin-right: 30px;
+}
+#home .projects .nomarginright{
+	margin-right:0px;
+}
+#home .projects .project1,#home .projects .project2,#home .projects .project5,#home .projects .project6{
+width:263px;
+}
+#home .projects .project3,#home .projects .project4,#home .projects .project7,#home .projects .project8{
+width:262px;
+}
+#home .projects figure figcaption{
+	text-align: center;
+	font-size: 14px;
+	color:#666666;
+	padding:10px 0;
+}
+#footer{
+	height: 266px;
+    position: relative;
+    top:10px;
+}
+#footer .top{
+    height: 226px;
+    background-color: #293d48;
+}
+#footer .container address{
+	font-style: normal;
+}
+#footer .container h4{
+	font-weight: normal;
+	font-size: 16px;
+	color:#ffffff;
+	padding:20px 0;
+}
+#footer .container li{
+	font-size: 13px;
+	color:#c7c3c3;
+	padding-bottom: 20px;
+}
+
+#footer .container .left{
+	width:293px;
+        height: 226px;
+        display: inline-block;
+        margin-right: -4px;
+      
+}
+#footer .container .centerone{
+	width:293px;
+        height: 226px;
+        display:inline-block;
+         margin-right: -4px;
+         
+}
+#footer .container .centertwo{
+	width:292px;
+     height: 226px;
+      display:inline-block;
+      margin-right: -4px;
+       
+}
+#footer .container .right{
+	width:262px;
+       height: 226px;
+        display:inline-block;
+        margin-right: -4px;
+
+}
+#footer .bottom{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color:#c7c3c3;
+    font-size: 13px;
+    background-color: #202f38;
+
+}

@@ -1,0 +1,29 @@
+ body{
+    background-color: #049FCF;
+  }
+  .logo{
+    max-width: 350px;
+     margin:0px auto;
+     text-align: center;
+  }
+    .logo-img{
+    margin: 0 auto;
+    margin-top:10px;
+   }
+   .logo-title{
+    color: #D6FBFC;
+   }
+  .form-align{
+    max-width: 350px;
+   margin:30px auto;
+   padding:20px;
+   background-color:#FFFFFF; 
+   border-radius: 10px;
+ }
+  .form-title{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #049FCF;
+   }
+  
+ 
